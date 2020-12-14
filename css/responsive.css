@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:480px) 
+{
+  /* --------------------------
+ 全体構造
+-------------------------- */
+    .content {
+    width: auto;
+  }
+  /* --------------------------
+ ヘッダー
+-------------------------- */
+header .inner {
+    width: auto;
+  }
+header h1 {
+  position: static;/*絶対配置を解除*/
+  text-align: center;
+  margin: 20px 0;
+}
+  header .main-nav{
+    display: none;
+  }
+  header .hamburger-button{
+  display: flex;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+  header .hamburger-button svg{
+    width: 20px;
+    height: 20px;
+  }
+  header .hamburger-button path{
+    fill:#fff;
+  }
+  header .hamburger-nav{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+  }
+  /*
+header .main-nav {
+  position: static;
+}
+header .inner {
+  height: auto;
+}
+header .main-nav ul {
+  overflow: hidden;
+  background-color: var(--main-color);
+}
+header .main-nav li{
+  margin: 0;
+  width: 25%;
+  }
+  header .main-nav li img{
+    width: 100%;
+    height: auto;
+  }
+*/
+  /* --------------------------
+ メイン
+-------------------------- */
+main {
+  width: auto;
+  float: none;
+  margin-bottom: 60px;
+}
+  /* --------------------------
+ サイド
+-------------------------- */
+  aside{
+    width: auto;
+    float: none;
+    margin: 0 auto;
+  }
+  aside .news{
+    margin: 0 20px;
+  }
+  .banner{
+    text-align: center;
+  }
+/* --------------------------
+ フッター
+-------------------------- */
+  footer {
+  height: auto;
+}
+  footer address {
+  margin-top: 20px;
+}
+footer p {
+  margin: 20px 0;
+}
+/*↓↓PC表示の為の改行処理↓↓*/
+  footer br{
+  display: inline;
+}
+/* --------------------------
+ トップページ
+-------------------------- */
+.home main figure img {
+  width: 100%;
+  height: auto;
+  }
+  /* --------------------------
+ 学科紹介
+-------------------------- */
+  article{
+    margin: 0 20px;
+  }
+.course main section {
+  margin-bottom: 60px;
+}
+.course main figure {
+  float: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+  .course main p {
+  margin: 0;
+}
+  
+}
